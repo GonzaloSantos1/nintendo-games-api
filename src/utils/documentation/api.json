@@ -1,0 +1,306 @@
+{
+  "Games": "/api/games",
+  "schema": {
+    "name": "string",
+    "year": "number",
+    "genre": "string",
+    "characters": "Array CharactersID"
+  },
+  "endpoints": [
+    {
+      "Action": "GET",
+      "URL": "/api/games",
+      "Response": [
+        {
+          "_id": "6228fac46f1d5a8ba372c879",
+          "characters": [
+            {
+              "_id": "6228f9416f1d5a8ba372c871",
+              "name": "Isabelle",
+              "race": "Dog",
+              "gender": "Female",
+              "createdAt": "2022-03-09T19:00:17.263Z",
+              "updatedAt": "2022-03-09T19:00:17.263Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f9616f1d5a8ba372c873",
+              "name": "Tom Nook",
+              "race": "Racoon",
+              "gender": "Male",
+              "createdAt": "2022-03-09T19:00:49.655Z",
+              "updatedAt": "2022-03-09T19:00:49.655Z",
+              "__v": 0
+            }
+          ],
+          "name": "Animal Crossing: New Horizons",
+          "year": 2020,
+          "genre": "Simulator",
+          "createdAt": "2022-03-09T19:06:44.786Z",
+          "updatedAt": "2022-03-09T19:06:44.786Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228fc60c546f4e8022ab38c",
+          "characters": [
+            {
+              "_id": "6228f6ac6f1d5a8ba372c84f",
+              "name": "Mario",
+              "race": "Human",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:49:16.438Z",
+              "updatedAt": "2022-03-09T18:49:16.438Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f72b6f1d5a8ba372c853",
+              "name": "Bowser",
+              "race": "Koopa",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:51:23.207Z",
+              "updatedAt": "2022-03-09T18:51:23.207Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f73b6f1d5a8ba372c855",
+              "name": "Luigi",
+              "race": "Human",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:51:39.028Z",
+              "updatedAt": "2022-03-09T18:51:39.028Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f75d6f1d5a8ba372c857",
+              "name": "Princess Peach",
+              "race": "Human",
+              "gender": "Female",
+              "createdAt": "2022-03-09T18:52:13.818Z",
+              "updatedAt": "2022-03-09T18:52:13.818Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f7b36f1d5a8ba372c859",
+              "name": "Yoshi",
+              "race": "Yoshi",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:53:39.843Z",
+              "updatedAt": "2022-03-09T18:53:39.843Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f7c06f1d5a8ba372c85b",
+              "name": "Waluigi",
+              "race": "Human",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:53:52.180Z",
+              "updatedAt": "2022-03-09T18:53:52.180Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f7cd6f1d5a8ba372c85d",
+              "name": "Wario",
+              "race": "Human",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:54:05.842Z",
+              "updatedAt": "2022-03-09T18:54:05.842Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f8006f1d5a8ba372c85f",
+              "name": "Toad",
+              "race": "Toad",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:54:56.993Z",
+              "updatedAt": "2022-03-09T18:54:56.993Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f8166f1d5a8ba372c861",
+              "name": "Estela",
+              "race": "Human",
+              "gender": "Female",
+              "createdAt": "2022-03-09T18:55:18.909Z",
+              "updatedAt": "2022-03-09T18:55:18.909Z",
+              "__v": 0
+            },
+            {
+              "_id": "6228f8ac6f1d5a8ba372c86b",
+              "name": "Bowser Jr.",
+              "race": "Koopa",
+              "gender": "Male",
+              "createdAt": "2022-03-09T18:57:48.860Z",
+              "updatedAt": "2022-03-09T18:57:48.860Z",
+              "__v": 0
+            }
+          ],
+          "name": "Mario Party Superstars",
+          "year": 2021,
+          "genre": "Party",
+          "createdAt": "2022-03-09T19:13:36.880Z",
+          "updatedAt": "2022-03-09T19:13:36.880Z",
+          "__v": 0
+        }
+      ]
+    },
+    {
+      "Action": "GET",
+      "URL": "/api/characters",
+      "Response": [
+        {
+          "_id": "6228f6ac6f1d5a8ba372c84f",
+          "name": "Mario",
+          "race": "Human",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:49:16.438Z",
+          "updatedAt": "2022-03-09T18:49:16.438Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f72b6f1d5a8ba372c853",
+          "name": "Bowser",
+          "race": "Koopa",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:51:23.207Z",
+          "updatedAt": "2022-03-09T18:51:23.207Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f73b6f1d5a8ba372c855",
+          "name": "Luigi",
+          "race": "Human",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:51:39.028Z",
+          "updatedAt": "2022-03-09T18:51:39.028Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f75d6f1d5a8ba372c857",
+          "name": "Princess Peach",
+          "race": "Human",
+          "gender": "Female",
+          "createdAt": "2022-03-09T18:52:13.818Z",
+          "updatedAt": "2022-03-09T18:52:13.818Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f7b36f1d5a8ba372c859",
+          "name": "Yoshi",
+          "race": "Yoshi",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:53:39.843Z",
+          "updatedAt": "2022-03-09T18:53:39.843Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f7c06f1d5a8ba372c85b",
+          "name": "Waluigi",
+          "race": "Human",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:53:52.180Z",
+          "updatedAt": "2022-03-09T18:53:52.180Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f7cd6f1d5a8ba372c85d",
+          "name": "Wario",
+          "race": "Human",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:54:05.842Z",
+          "updatedAt": "2022-03-09T18:54:05.842Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8006f1d5a8ba372c85f",
+          "name": "Toad",
+          "race": "Toad",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:54:56.993Z",
+          "updatedAt": "2022-03-09T18:54:56.993Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8166f1d5a8ba372c861",
+          "name": "Estela",
+          "race": "Human",
+          "gender": "Female",
+          "createdAt": "2022-03-09T18:55:18.909Z",
+          "updatedAt": "2022-03-09T18:55:18.909Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8336f1d5a8ba372c863",
+          "name": "Zelda",
+          "race": "Hylian",
+          "gender": "Female",
+          "createdAt": "2022-03-09T18:55:47.433Z",
+          "updatedAt": "2022-03-09T18:55:47.433Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8506f1d5a8ba372c865",
+          "name": "Link",
+          "race": "Hylian",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:56:16.618Z",
+          "updatedAt": "2022-03-09T18:56:16.618Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8816f1d5a8ba372c867",
+          "name": "Donkey Kong",
+          "race": "Kong",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:57:05.117Z",
+          "updatedAt": "2022-03-09T18:59:17.869Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f89b6f1d5a8ba372c869",
+          "name": "Ganondorf",
+          "race": "Gerudo",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:57:31.098Z",
+          "updatedAt": "2022-03-09T18:57:31.098Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8ac6f1d5a8ba372c86b",
+          "name": "Bowser Jr.",
+          "race": "Koopa",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:57:48.860Z",
+          "updatedAt": "2022-03-09T18:57:48.860Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f8d76f1d5a8ba372c86d",
+          "name": "Diddy Kong",
+          "race": "Kong",
+          "gender": "Male",
+          "createdAt": "2022-03-09T18:58:31.474Z",
+          "updatedAt": "2022-03-09T18:58:31.474Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f9416f1d5a8ba372c871",
+          "name": "Isabelle",
+          "race": "Dog",
+          "gender": "Female",
+          "createdAt": "2022-03-09T19:00:17.263Z",
+          "updatedAt": "2022-03-09T19:00:17.263Z",
+          "__v": 0
+        },
+        {
+          "_id": "6228f9616f1d5a8ba372c873",
+          "name": "Tom Nook",
+          "race": "Racoon",
+          "gender": "Male",
+          "createdAt": "2022-03-09T19:00:49.655Z",
+          "updatedAt": "2022-03-09T19:00:49.655Z",
+          "__v": 0
+        }
+      ]
+    }
+  ]
+}
