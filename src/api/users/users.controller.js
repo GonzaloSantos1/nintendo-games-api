@@ -8,7 +8,6 @@ const register = async (req, res, next) => {
     // Miramos si el email existe
     const userExist = await User.findOne({email: user.email});
     if (userExist) {
-      // TODO: Errores
       return next(new Error());
     }
     const userDB = await user.save();
@@ -23,7 +22,6 @@ const login = async (req, res, next) => {
     // Comprobamos que existe el email para logarse
     const user = await User.findOne({email: req.body.email});
     if (!user) {
-      //TODO: errores
       return next(new Error());
     }
     // comparamos contraseña con la contraseña hasheada

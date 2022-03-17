@@ -17,11 +17,9 @@ const userSchema = new mongoose.Schema({
 /// Tenemos que guardar la contraseña encriptada - para ello usamos el método mongoose pre("save")
 userSchema.pre('save', function (next) {
   if (!validationPassword(this.password)) {
-    //TODO: Create ERROR
     return next(new Error());
   }
   if (!validationEmail(this.email)) {
-    //TODO: Create ERROR
     return next(new Error());
   }
   // Encriptar la password en nuestra DB
