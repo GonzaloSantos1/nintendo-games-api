@@ -1,4 +1,3 @@
-// Importamos la librería de jsonwebtoken
 const jwt = require('jsonwebtoken');
 
 class JwtUtils {

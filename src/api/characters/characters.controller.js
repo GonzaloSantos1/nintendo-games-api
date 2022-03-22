@@ -54,7 +54,7 @@ const deleteOne = async (req, res, next) => {
   try {
     const {id} = req.params;
     const character = await Character.findByIdAndRemove(id);
-    if (req.file) character.img = req.file.path;
+    if (character.img) deleteImgCloudinary(character.img);
     return res.status(200).json(character);
   } catch (error) {
     return next(error);

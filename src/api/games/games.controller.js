@@ -1,8 +1,5 @@
 const Game = require('./games.model');
-// Middleware para el borrado de imgs asociadas a movie
-const {
-  deleteImgCloudinary,
-} = require('../../middlewares/deleteFile.middleware');
+const {deleteImgCloudinary} = require('../../middlewares/deleteFile.middleware');
 
 const getAll = async (req, res, next) => {
   try {
